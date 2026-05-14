@@ -74,6 +74,7 @@ img{
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.10);
     overflow: auto;
+    z-index: 3;
 } 
 .kodee-scroll{
     flex: 1;
@@ -167,12 +168,22 @@ textarea{
     margin: 8px;
     padding: 8px 12px;
     width: 325px;
+    position: relative;
 }
 textarea:hover{
     border: 2px solid black;
 }
+.submit-button{
+    position: absolute;
+    bottom: -120px;
+    right: 24px;
+    background-color: #0000000c;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
 
-button{
+.ask-kodee{
     display: flex;
     flex-direction: row;
     border-radius: 100px;
